@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+.header {
+  background-color: #e91e63;
+  font-size: 50px;
+  padding: 15px;
+  color: white;
+}
+body ul{
+    margin:0;
+    padding:15px;
+}
+.body ul li {
+    background:#ddd;
+    list-style:none;
+    margin-bottom: 10px;
+    padding:10px;
+}
+.body ul li span {
+    cursor:pointer;
+    float:right;
+    font-weight: 500;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #e91e63;
+  width: 100%;
+}
+.footer input {
+  background: transparent;
+  color: white;
+  width: 90%;
+  margin: auto;
+  border: none;
+  border-bottom: 3px solid white;
+  height: 35px;
+  font-size: 35px;
+}
+.footer input:focus {
+  outline: none;
+}
+.footer button {
+  cursor: pointer;
+  position: absolute;
+  right:30px;
+  top: -18px ;
+  border-radius: 50px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: #e91e63;
+  box-shadow: 1px 1px 3px;
+  color: white;
+}
